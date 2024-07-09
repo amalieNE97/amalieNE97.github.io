@@ -8,6 +8,35 @@
 </head>
 <body>
 <style>
+    .projects {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .magazine-rack {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px; /* Space between projects */
+    }
+
+    .project {
+        width: 150px; /* Set width for each project */
+        text-align: center;
+    }
+
+    .project img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px; /* Optional: soften edges */
+    }
+
+    .project p {
+        margin-top: 5px;
+        font-size: 1em;
+        color: #333;
+    }
+    
     .video-container {
         display: flex;
         flex-direction: column;
@@ -98,6 +127,7 @@
         width: 100%;
     }
 </style>
+
     <header class="header">
         <div class="profile-container">
         <img src="images/profile.jpg" alt="Profile Picture" class="profile-picture">
@@ -145,6 +175,25 @@
         </div>
         <!-- Repeat for more education -->
     </section>
+
+<section class="projects">
+    <h2>My Anthropological Projects</h2>
+    <div class="magazine-rack">
+        <div class="project">
+            <img src="images/project1.jpg" alt="Project 1">
+            <p>Project 1</p>
+        </div>
+        <div class="project">
+            <img src="images/project2.jpg" alt="Project 2">
+            <p>Project 2</p>
+        </div>
+        <div class="project">
+            <img src="images/project3.jpg" alt="Project 3">
+            <p>Project 3</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </div>
+</section>
 
     <section class="skills">
         <h2>Skills</h2>
