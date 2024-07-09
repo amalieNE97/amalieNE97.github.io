@@ -8,6 +8,15 @@
 </head>
 <body>
 <style>
+    .video-container {
+        margin: 20px auto;
+    }
+
+    .video-container video {
+        max-width: 100%;
+        height: auto;
+    }
+
     .profile-container {
         display: flex;
         align-items: center;
@@ -17,6 +26,7 @@
     .profile-picture {
         width: 150px; /* Set only the width */
         height: auto; /* Adjust height to maintain aspect ratio */
+        border-radius: 50%;
     }
 
     body {
@@ -90,11 +100,16 @@
         </div>
         <h2 style="text-align: center;"> MSc Anthropology, Environment and Development</h2>
         <p class="contact-info">Email: <a href="mailto:lunakm@gmail.com">lunakm@gmail.com</a> | Phone: (123) 456-7890</p>
-
     </header>
 
     <section class="profile">
         <h2>Profile</h2>
+        <div class="video-container">
+            <video controls>
+                <source src="images/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
         <p>A brief summary of your professional background, key skills, and career aspirations.</p>
     </section>
 
