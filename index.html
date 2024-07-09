@@ -13,11 +13,11 @@
         margin: 20px auto;
     }
 
-    .project-item img {
-        width: 150px; /* Fixed width */
-        height: 150px; /* Fixed height */
-        object-fit: cover; /* Scale and crop the image to fit the container */
-        border-radius: 10px; /* Soften the edges */
+    .magazine-rack {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px; /* Space between projects */
     }
 
     .project {
@@ -26,8 +26,8 @@
     }
 
     .project img {
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: auto;
         border-radius: 10px; /* Optional: soften edges */
     }
 
@@ -52,7 +52,7 @@
     }
 
     .profile-container {
-        margin-right: 10px;
+        gap: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
