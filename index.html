@@ -8,10 +8,15 @@
 </head>
 <body>
 <style>
+    .profile-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
     .profile-picture {
         width: 150px; /* Set only the width */
         height: auto; /* Adjust height to maintain aspect ratio */
-        border-radius: 50%; /* To make the image circular */
     }
 
     body {
@@ -79,10 +84,12 @@
     }
 </style>
     <header class="header">
+        <div class="profile-container">
         <img src="images/profile.jpg" alt="Profile Picture" class="profile-picture">
         <h1 class="name">Luna Melgaard</h1>
         <h2 style="text-align: center;"> MSc Anthropology, Environment and Development</h2>
         <p class="contact-info">Email: <a href="mailto:lunakm@gmail.com">lunakm@gmail.com</a> | Phone: (123) 456-7890</p>
+        </div>
     </header>
 
     <section class="profile">
@@ -133,8 +140,12 @@
         </ul>
     </section>
 
+<section class="certications">
+    <p>Thanks for concidering my application,</p>
+</section>
+
     <footer class="footer">
-        <p>' 2024 Luna Melgaard. All rights reserved.</p>
+        <p> 2024 Luna Melgaard. All rights reserved.</p>
     </footer>
 </body>
 </html>
