@@ -10,12 +10,16 @@
 <style>
     .video-container {
         margin: 20px auto;
+        align-items: center;
+        justify-content: center;
     }
 
     .video-container video {
         width: 150px; /* Set only the width */
         height: 150px; /* Adjust height to maintain aspect ratio */
         border-radius: 10%;
+        align-items: center;
+        justify-content: center;
     }
 
     .profile-container {
@@ -106,7 +110,8 @@
     <section class="profile">
         <h2>Profile</h2>
         <div class="profile-container">
-            <h2> Who am I? have a quick listen by clicking play on the video below!</h2>
+            <h3 style="text-align: center"> Who am I? have a quick listen by clicking play on the video below!</h3>
+        </div>
         <div class="video-container">
             <video controls>
                 <source src="images/video.mp4" type="video/mp4">
